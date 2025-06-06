@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clasifica la Basura</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>♻️ Clasifica la Basura ♻️</h1>
+  <div class="info-bar">
+    <p id="puntos">Puntos: 0</p>
+    <p id="tiempo">Tiempo: 2:00</p>
+  </div>
+
+  <div class="zona-juego">
+    <div id="area-item" class="items"></div>
+
+    <div class="contenedores">
+      <div class="contenedor" data-accept="organico">🌱 Orgánico</div>
+      <div class="contenedor" data-accept="papel">📄 Papel y Cartón</div>
+      <div class="contenedor" data-accept="metal">🔩 Metales y Latas</div>
+      <div class="contenedor" data-accept="reciclable">🔁 Reciclable</div>
+      <div class="contenedor" data-accept="inorganico">🧹 Inorgánico</div>
+      <div class="contenedor" data-accept="no-metal">💡 Electronicos</div>
+    </div>
+  </div>
+
+  <p id="resultado"></p>
+  <div id="mensaje-final" class="mensaje-final"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
